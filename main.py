@@ -15,7 +15,7 @@ load_dotenv()
 newsapi = os.getenv("NEWS_API_KEY")
 if newsapi:
     newsapi = newsapi.strip()   # remove any spaces or newlines
-print("Loaded API key:", newsapi)
+
 
 def speak(text):
     engine.say(text)
