@@ -14,7 +14,7 @@ load_dotenv()
 
 newsapi = os.getenv("NEWS_API_KEY")
 if newsapi:
-    newsapi = newsapi.strip()   # remove any accidental spaces/newlines
+    newsapi = newsapi.strip()   # remove any spaces or newlines
 print("Loaded API key:", newsapi)
 
 def speak(text):
@@ -47,8 +47,6 @@ def processcommand(c):
     elif "news" in c.lower():
         url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={newsapi}"
         r = requests.get(url)
-        print("Status Code:", r.status_code)
-        print("Response:", r.json())
         if r.status_code == 200:
             data = r.json()
             articles = data.get("articles", [])[:5]
