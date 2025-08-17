@@ -1,6 +1,6 @@
-# aurex
+# RX
 a basic voice assistant
-Aurex is a Python-based voice assistant that can perform everyday tasks such as opening websites, playing music, fetching news, and more — all through simple voice commands.
+RX is a Python-based voice assistant that can perform everyday tasks such as opening websites, playing music, fetching news, and more — all through simple voice commands.
 
 🚀 Features
 
