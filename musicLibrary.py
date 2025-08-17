@@ -1,4 +1,8 @@
 music = {
-"finding her":"https://www.youtube.com/watch?v=3Cp2QTBZAFQ&list=RD3Cp2QTBZAFQ&start_radio=1",
-          "paro":"https://www.youtube.com/watch?v=DxsDekHDKXo&list=RDDxsDekHDKXo&start_radio=1",
-            "khayal":"https://www.youtube.com/watch?v=JFUoE0ArWd4&list=RDJFUoE0ArWd4&start_radio=1"}
+"seven years" : "https://youtu.be/2XmVjMb6Y8c?feature=shared",
+"heat waves": "https://www.youtube.com/watch?v=mRD0-GxqHVo",
+"superman":"https://youtu.be/Mx_yZk47YN4?feature=shared"
+"dream on":"https://youtu.be/89dGC8de0CA?feature=shared"
+}
+
+# add any of ur liked songs with thier name and its yt link
