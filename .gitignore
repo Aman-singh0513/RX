@@ -1,0 +1,9 @@
+# don’t upload .env file (secrets)
+.env
+
+# don’t upload virtual environment
+.venv/
+
+# don’t upload Python cache
+__pycache__/
+*.pyc
